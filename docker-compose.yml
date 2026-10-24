@@ -1,0 +1,5 @@
+# Supabase itself runs via `supabase start` (Supabase CLI + Docker). This file holds the extras.
+services:
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
